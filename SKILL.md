@@ -3,10 +3,12 @@ name: scientific-figure
 description: 制作顶刊级、零 AI 味的通用理工科科研示意图（论文机理图、多尺度对比图、系统架构图、Graphical Abstract / TOC）。采用“信息架构拆解 → 2D 矢量与隔离式素材分路生产 → HTML/SVG 统一矢量合成与 Chrome 无头高清渲染 → 客观指标 + 视觉鉴伪双门禁”的四阶段解耦流水线，从根源消除像素抖动、无意义发光特效、实例不一致与排版混乱等 AI 痕迹。适用于材料/电化学、物理/器件、生物/医学、计算机/工程等所有理工科科研绘图。
 ---
 
-# 顶刊级去 AI 味科研示意图（Scientific Figure）
+# 顶刊级去 AI 味科研示意图（Scientific Figure · C4D 风格对齐版）
 
 本技能的核心第一性原理：**科研示意图不是“精美插画”，而是“高信噪比的视觉信息编码系统”。**
 同行识别“AI 味”的本质，不是反感工具本身，而是反感**装饰性熵增（发光特效/科幻渐变）、约束真空区脑补、实例不一致、几何与标注混融**带来的学术不可信感。
+
+**视觉风格基准**：本技能默认与用户的 **Cinema 4D（C4D）高调清透粉彩哑光科研成品风格**保持高度一致（详见 [C4D 风格基准](references/c4d-style-guide.md)）。首次制作或对质感把握不准时，**必须先查看 `assets/style-references/` 中最接近当前题材的参考图**（`01-battery-cutaway.png`、`02-roll-to-roll-process.png`、`03-cnt-graphene-lattice.png`、`04-optical-setup.jpg`、`05-bio-ion-composite.png`）。
 
 本技能强制执行 **四阶段解耦流水线**，严禁“写一段 Prompt 直接让文生图模型输出整张科研图”。
 

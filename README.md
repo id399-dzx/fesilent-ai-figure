@@ -17,11 +17,14 @@
 
 ```text
 .
-├── SKILL.md                           # Agent 技能主指令
+├── SKILL.md                           # Agent 技能主指令（已对齐 C4D 科研成品风格）
+├── assets/
+│   └── style-references/              # 5 张 C4D 科研成品风格锚点参考图
 ├── references/
-│   ├── visual-spec.md                 # Nature / Cell / IEEE 色板、字体与多尺度排版规范
+│   ├── c4d-style-guide.md             # C4D 高调粉彩哑光风格 DNA 与场景对照表
+│   ├── visual-spec.md                 # C4D 粉彩 / Nature / Cell / IEEE 色板与排版规范
 │   ├── anti-ai-checklist.md           # 6 大反 AI 味鉴伪验收清单
-│   └── isolated-asset-prompts.md      # 隔离式文生图资产提示词模板与禁用词
+│   └── isolated-asset-prompts.md      # C4D 风格对齐的隔离式文生图提示词模板
 └── scripts/
     ├── render_figure.py               # 无头 Chrome 高清 PNG / PDF 渲染脚本
     ├── clean_asset.py                 # 边缘泛洪透明抠图 + 去灰底/压饱和度后处理脚本
