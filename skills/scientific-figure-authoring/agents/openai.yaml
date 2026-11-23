@@ -1,0 +1,4 @@
+interface:
+  display_name: "科研示意图直出"
+  short_description: "直接生成科研示意图，校正配色、材质、边界和光照，减少图像生成的常见视觉痕迹"
+  default_prompt: "用 $scientific-figure-authoring 直接生成科研示意图。遇到我不清楚的问题，先查本领域资料。整体方向模糊时，先给我 2–3 张不同风格的候选图。"

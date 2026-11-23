@@ -1,5 +1,14 @@
 # fesilent-ai-figure (`scientific-figure` Skill)
 
+## 技能入口
+
+- **Codex 科研示意图直出**使用 [`scientific-figure-authoring`](skills/scientific-figure-authoring/SKILL.md)。支持图像生成、局部编辑和审图，包含个人 C4D 风格参考、原件复用和球棍质感校准。
+- **SVG 合成工作流**使用仓库根目录的 [`scientific-figure`](SKILL.md)，安装和使用方法见下文。
+
+安装 Codex 直出技能时，从 GitHub 选择 `skills/scientific-figure-authoring` 子目录安装到用户技能目录（默认 `~/.agents/skills`）。安装后用 `$scientific-figure-authoring` 调用。
+
+## 仓库根目录工作流
+
 一个用于 AI Agent 的**顶刊级、零 AI 味通用理工科科研示意图**制作技能（Skill）。
 
 ## 设计理念
