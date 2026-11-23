@@ -28,4 +28,4 @@
 - **先比代表样件。** 把参考与候选的同类部件放到相同底色、相近显示尺度，透明图先核对实际 Alpha。选最容易暴露差异的一个部件先出样并修正。球棍可选亮色球、白球及连接杆，先比较球身亮面与暗边，再比较高光形状、颜色和杆身明暗。差异肉眼已明确时直接调整，必要时取同色、同相对位置的小区域比较中间调，避开高光和抗锯齿边缘。像素数值只用于本次对照。
 - **把风格验收与事实验收分开。** 更亮的版本仍需核实原子、键级、离子连接、图例和元素颜色。通过代表件后再批量应用该材质并放入整图，在交付尺寸复查。首个样件已有显著差异时先修样件，避免重做整套图。风格参照未达到且影响用户要求时，在交付中说明具体差距。
 
-审图方式参考 Damir Sokolovsky 的 `unslop` 和 `fesilent-ai-figure` 的结构检查思路。 [unslop 技能](https://github.com/heydamir/unslop/blob/main/skills/unslop/SKILL.md) · [fesilent-ai-figure 检查清单](https://github.com/id399-dzx/fesilent-ai-figure/blob/main/references/anti-ai-checklist.md)
+审图方式参考 Damir Sokolovsky 的 `unslop` 和 `fesilent-ai-figure` 的结构检查思路。 [unslop 技能](https://github.com/heydamir/unslop/blob/main/skills/unslop/SKILL.md) · [原版 fesilent-ai-figure 检查清单](https://github.com/id399-dzx/fesilent-ai-figure/blob/d64fffa52dcb72c5c785ac5ca77207e1df7d4dd2/references/anti-ai-checklist.md)
