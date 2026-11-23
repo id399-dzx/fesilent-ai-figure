@@ -1,4 +1,6 @@
-# fesilent-ai-figure (`scientific-figure` Skill)
+# fesilent-ai-figure
+
+fesilent-ai-figure 是一个科研示意图项目，提供 SVG 合成和 Codex 直出两种工作流。Codex 直出工作流沿用了原有工作流的 C4D 科研制图经验，将结构、配色、材质和审图要求应用到图像模型直接生成与编辑的流程中。
 
 ## 技能入口
 
@@ -7,7 +9,7 @@
 
 安装 Codex 直出技能时，从 GitHub 选择 `skills/scientific-figure-authoring` 子目录安装到用户技能目录（默认 `~/.agents/skills`）。安装后用 `$scientific-figure-authoring` 调用。
 
-## 仓库根目录工作流
+## SVG 合成工作流
 
 一个用于 AI Agent 的**顶刊级、零 AI 味通用理工科科研示意图**制作技能（Skill）。
 
@@ -26,7 +28,9 @@
 
 ```text
 .
-├── SKILL.md                           # Agent 技能主指令（已对齐 C4D 科研成品风格）
+├── SKILL.md                           # SVG 合成工作流入口
+├── skills/
+│   └── scientific-figure-authoring/   # Codex 科研示意图直出工作流
 ├── assets/
 │   └── style-references/              # 5 张 C4D 科研成品风格锚点参考图
 ├── references/
