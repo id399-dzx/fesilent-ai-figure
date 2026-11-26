@@ -1,6 +1,6 @@
 # fesilent-ai-figure
 
-`scientific-figure-authoring` 用图像模型直接生成、编辑和重绘科研示意图，默认交付栅格图。适用于机制图、方法图、图文摘要、设备结构图和拟三维剖面，也可单独用于审图。
+`scientific-figure-authoring` 用图像模型直接生成、编辑和重绘科研示意图，默认交付透明背景 PNG（RGBA）。适用于机制图、方法图、图文摘要、设备结构图和拟三维剖面，也可单独用于审图。
 
 出图前先确认图意和用户偏好。领域惯例由技能查阅资料，整体方向模糊时可生成 2–3 张独立候选图。局部修改时逐区核对原件复用、结构替换和放大窗。指定 C4D 材质参考时，先校准代表部件，再把配色、亮度和质感应用到整图。
 
@@ -20,3 +20,4 @@ git clone https://github.com/id399-dzx/fesilent-ai-figure.git ~/.agents/skills/s
 - [直出提示词与局部返修示例](references/direct-image-prompts.md)
 - [成图审查与材质校准](references/figure-review.md)
 - [C4D 科研制图风格参考](references/personal-c4d-style.md)
+- [顶刊构图范式与进阶视觉语法](references/composition-patterns.md)
